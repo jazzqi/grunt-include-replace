@@ -88,7 +88,7 @@ module.exports = function(grunt) {
 				};
 			}
 
-			while (matches) {
+			if (matches) {
 
 				var match = matches[0];
 				var includePath = matches[1];
